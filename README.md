@@ -1,4 +1,17 @@
 # posts-demo
+
+## Table of Contents
+
+- [posts-demo](#posts-demo)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
+
+## Overview
+
 This is a demo repo with a Golang API and a React FE to showcase some functionalities around DevOps frameworks and tools.
 
 The main purpose of this demo aims to demonstrate on how Sentry can be used to track errors in both the API and the FE.
@@ -27,15 +40,6 @@ The React FE has the following features:
 - React Bootstrap for UI components
 - NGINX as a web server
 - Docker multi-stage build for production
-
-## Table of Contents
-
-- [posts-demo](#posts-demo)
-  - [Table of Contents](#table-of-contents)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Testing](#testing)
 
 ## Requirements
 
