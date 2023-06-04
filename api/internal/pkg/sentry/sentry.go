@@ -39,6 +39,7 @@ func NewSentryClient(deps sentryDeps) *Sentry {
 	}
 	err := sentry.Init(sentry.ClientOptions{
 		EnableTracing:    true,
+		Environment:      deps.Config.Environment,
 		Dsn:              deps.Config.SentryDSN,
 		TracesSampleRate: 1.0,
 	})
