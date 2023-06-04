@@ -81,7 +81,6 @@ func createDb(url, name string) error {
 func migrateDb(url string) error {
 	db, err := sql.Open("mysql", url)
 	if err != nil {
-		log.Println("error opening database")
 		return err
 	}
 
